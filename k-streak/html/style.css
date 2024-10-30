@@ -1,0 +1,27 @@
+#killstreak {
+    position: fixed;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 900px;
+    background-color: rgba(228, 126, 32, 0.979);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 1000;
+    display: none; 
+}
+
+@keyframes colorChange {
+    0%   {background-color: rgba(228, 126, 32, 0.979);}
+    25%  {background-color: rgb(255, 208, 0);}
+    50%  {background-color: rgba(228, 126, 32, 0.979);}
+    75%  {background-color: rgb(255, 208, 0);}
+    100% {background-color: rgba(228, 126, 32, 0.979);}
+}
+
+.animated-background {
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
