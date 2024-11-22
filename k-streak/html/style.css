@@ -3,8 +3,8 @@
     top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     left: 900px;
-    background-color: rgba(228, 126, 32, 0.979);
-    color: white;
+    background-color: #c48b11f1;
+    color: #fdfdfd;
     padding: 12px;
     border-radius: 5px;
     font-size: 18px;
@@ -12,12 +12,19 @@
     display: none; 
 }
 
+i{
+    color: #fdfdfd;
+}
+
 @keyframes colorChange {
-    0%   {background-color: rgba(228, 126, 32, 0.979);}
-    25%  {background-color: rgb(255, 208, 0);}
-    50%  {background-color: rgba(228, 126, 32, 0.979);}
-    75%  {background-color: rgb(255, 208, 0);}
-    100% {background-color: rgba(228, 126, 32, 0.979);}
+    0%   {background-color: #141313b4;}
+    25%  {background-color: #68a8e4;}
+    50%  {background-color: #141313b4;}
+    75%  {background-color: #68a8e4;}
+    100% {background-color: #141313b4;}
+
+
+    
 }
 
 .animated-background {
