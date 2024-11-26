@@ -24,3 +24,10 @@ AddEventHandler('esx:onPlayerDeath', function(data)
     end
 end)
 
+-- Memory cleanup
+AddEventHandler('playerDropped', function (reason)
+    if killStreak[source] then
+        killStreak[source] = nil
+    end
+end)
+
